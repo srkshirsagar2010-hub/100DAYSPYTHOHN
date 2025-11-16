@@ -1,0 +1,48 @@
+💰 Day 2 – Tip Calculator (Python)
+
+This is my Day 2 project from the 100 Days of Python Bootcamp.
+The goal of this project is to practice:
+
+Taking user input
+
+Converting data types
+
+Performing arithmetic operations
+
+Basic logic
+
+Simple real-life Python applications
+
+🚀 Project Description
+
+This Python program works as a Tip Calculator.
+It asks the user:
+
+Total bill amount
+
+Tip percentage (10, 20, or 30)
+
+Number of people sharing the bill
+
+Then it calculates how much each person should pay.
+
+🧠 Concepts Used
+
+input()
+
+float() and int()
+
+Arithmetic operations
+
+Variables
+
+Basic user interaction
+
+💻 Code
+print("WELCOME TO THE TIP CALCULATOR!")
+bill = float(input("What was the total bill?"))
+tip = int(input("How much tip would u like to give? 10 20 or 30"))
+split = int(input("How many people to split the bill between?"))
+bill_to_pay = (bill + tip) / split
+print("Each person should pay:")
+print(bill_to_pay)
